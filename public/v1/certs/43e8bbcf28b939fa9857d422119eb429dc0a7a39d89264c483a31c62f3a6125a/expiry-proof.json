@@ -1,0 +1,12 @@
+{
+  "leaf_spki": "43e8bbcf28b939fa9857d422119eb429dc0a7a39d89264c483a31c62f3a6125a",
+  "subject_cn": "mesh.internal.node",
+  "profile": "chromium-current",
+  "status": "NO_TRUSTED_PATH",
+  "earliest_failure": "2026-10-27T01:22:30.821607+00:00",
+  "days_until_failure": 0,
+  "cause": "missing_trust_anchor",
+  "alternative_paths": 0,
+  "witness_path": [],
+  "proof_hash": "cc81e9d4b98a43e3ba1ad0d37444523377d20673699d8ec2af3fb3aaf4fc1a8f"
+}

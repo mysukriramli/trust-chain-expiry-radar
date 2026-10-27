@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "title": "TrustChainExpiryProof",
+  "type": "object",
+  "properties": {
+    "leaf_spki": {
+      "type": "string"
+    },
+    "subject_cn": {
+      "type": "string"
+    },
+    "profile": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "CURRENTLY_VALID",
+        "PATH_FAILED",
+        "NO_TRUSTED_PATH"
+      ]
+    },
+    "earliest_failure": {
+      "type": "string"
+    },
+    "days_until_failure": {
+      "type": "integer"
+    },
+    "cause": {
+      "type": "string"
+    },
+    "alternative_paths": {
+      "type": "integer"
+    },
+    "witness_path": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "proof_hash": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "leaf_spki",
+    "profile",
+    "status",
+    "earliest_failure",
+    "days_until_failure",
+    "proof_hash"
+  ]
+}

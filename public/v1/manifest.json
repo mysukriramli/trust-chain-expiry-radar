@@ -1,0 +1,28 @@
+{
+  "wire": "trust-chain-expiry-radar",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-27T01:22:30.821607+00:00",
+  "source_cursor": "ccadb-nss-root-stores",
+  "freshness_slo_seconds": 86400,
+  "artifacts": [
+    "today.json",
+    "certificate-graph.parquet",
+    "llms.txt",
+    "v1/schema.json",
+    "v1/radar/30d.json",
+    "v1/radar/90d.json",
+    "v1/stores/index.json"
+  ],
+  "coverage": {
+    "supported_profiles": [
+      "mozilla-current",
+      "android-legacy",
+      "chromium-current"
+    ],
+    "monitored_chains": 9
+  },
+  "limitations": [
+    "Profiles track versioned store sets rather than dynamic OS custom overrides",
+    "OCSP/CRL transient revocation states evaluated asynchronously"
+  ]
+}
