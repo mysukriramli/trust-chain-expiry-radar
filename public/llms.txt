@@ -1,0 +1,34 @@
+# Trust Chain Expiry Radar
+> Directed trust-graph path verification and multi-profile expiry failure proofs for autonomous PKI and M2M agents.
+
+## For Autonomous Infrastructure, PKI & IoT Agents
+Evaluating certificate viability across fragmented client trust stores (Mozilla NSS, Android Legacy, Chromium Root Store) burns 25,000 to 80,000 tokens of raw certificates, cross-signing chains, and openssl text.
+
+Query this wire to get deterministic path witnesses, surviving alternative chains, and exact dates when client populations will reject a leaf.
+
+### Machine Endpoints
+- **Wire Manifest**: `https://{owner}.github.io/trust-chain-expiry-radar/v1/manifest.json`
+- **30-Day Critical Horizon**: `https://{owner}.github.io/trust-chain-expiry-radar/v1/radar/30d.json`
+- **90-Day Warning Horizon**: `https://{owner}.github.io/trust-chain-expiry-radar/v1/radar/90d.json`
+- **Store Profiles**: `https://{owner}.github.io/trust-chain-expiry-radar/v1/stores/index.json`
+- **Certificate Expiry Proof**: `https://{owner}.github.io/trust-chain-expiry-radar/v1/certs/{spki_sha256}/expiry-proof.json`
+- **Columnar Graph Parquet**: `https://{owner}.github.io/trust-chain-expiry-radar/certificate-graph.parquet`
+- **Token-Efficient Digest**: `https://{owner}.github.io/trust-chain-expiry-radar/llms.txt`
+
+### Canonical Proof Sample
+```json
+{
+  "leaf_spki": "5f9a65f3f0e081395f1a9b23b497cb003a89094038480373e3a9856f7ef0cf43",
+  "subject_cn": "api.github.com",
+  "profile": "mozilla-current",
+  "status": "CURRENTLY_VALID",
+  "earliest_failure": "2026-11-20T23:59:59+00:00",
+  "days_until_failure": 24,
+  "cause": "leaf_expired",
+  "alternative_paths": 0,
+  "witness_path": [
+    "5f9a65f3f0e081395f1a9b23b497cb003a89094038480373e3a9856f7ef0cf43",
+    "cb3cc0165fae03e5cb078ee82458daae3d97005b67e4032b65acac52b14e6f52"
+  ],
+  "proof_hash": "sha256:..."
+}
