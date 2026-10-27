@@ -1,5 +1,5 @@
 # Trust Chain Expiry Radar
-> Last Sync: 2026-10-27T01:22:30.821607+00:00 UTC
+> Last Sync: 2026-10-27T09:47:08.188577+00:00 UTC
 > Optimization: Directed trust-graph path enumeration across client trust store profiles (Mozilla, Android Legacy, Chromium).
 > Slashes 25,000 to 80,000 tokens of openssl chains and root stores to 300-token path failure proofs.
 
