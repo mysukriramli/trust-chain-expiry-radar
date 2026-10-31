@@ -1,7 +1,7 @@
 {
   "wire": "trust-chain-expiry-radar",
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-30T10:50:17.327717+00:00",
+  "generated_at": "2026-10-31T10:21:29.051380+00:00",
   "source_cursor": "ccadb-nss-root-stores",
   "freshness_slo_seconds": 86400,
   "artifacts": [
