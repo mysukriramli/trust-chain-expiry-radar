@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-02T12:18:48.383933+00:00",
+  "generated_at_utc": "2026-11-03T11:53:25.743549+00:00",
   "horizon_days": 90,
   "at_risk_count": 3,
   "evaluations": [
@@ -9,14 +9,14 @@
       "profile": "mozilla-current",
       "status": "CURRENTLY_VALID",
       "earliest_failure": "2026-11-20T23:59:59+00:00",
-      "days_until_failure": 18,
+      "days_until_failure": 17,
       "cause": "leaf_expired",
       "alternative_paths": 0,
       "witness_path": [
         "5f9a65f3f0e081395f1a9b23b497cb003a89094038480373e3a9856f7ef0cf43",
         "cb3cc0165fae03e5cb078ee82458daae3d97005b67e4032b65acac52b14e6f52"
       ],
-      "proof_hash": "a6d475aa2e035bccdd7ae636390175190527302951ebaadae2130c9eea15465d"
+      "proof_hash": "d6120f76767809cc9e6ca786cc22228bc0f41d8bc7a59cc19bd0ed9af3786d62"
     },
     {
       "leaf_spki": "43e8bbcf28b939fa9857d422119eb429dc0a7a39d89264c483a31c62f3a6125a",
@@ -24,7 +24,7 @@
       "profile": "mozilla-current",
       "status": "CURRENTLY_VALID",
       "earliest_failure": "2026-11-15T23:59:59+00:00",
-      "days_until_failure": 13,
+      "days_until_failure": 12,
       "cause": "leaf_expired",
       "alternative_paths": 0,
       "witness_path": [
@@ -32,7 +32,7 @@
         "bb93de344e4e93e00b806b3fa1ecc0a2955519fdb23eb297441589139ec45bc8",
         "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
       ],
-      "proof_hash": "a08651cf3cee38cba9cc78af091a803b2db0ecfa81a431182fd33cb6b1cfef17"
+      "proof_hash": "4a1297cac5339df1b913064e752399634d95450592979869be32595dae816623"
     },
     {
       "leaf_spki": "129038fbcd5839217830aaefbbccddeeff99332211445566778899aabbccdde0",
