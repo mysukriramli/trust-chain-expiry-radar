@@ -3,10 +3,10 @@
   "subject_cn": "legacy-device.internal",
   "profile": "chromium-current",
   "status": "NO_TRUSTED_PATH",
-  "earliest_failure": "2026-11-04T12:04:16.138614+00:00",
+  "earliest_failure": "2026-11-05T12:15:53.356638+00:00",
   "days_until_failure": 0,
   "cause": "missing_trust_anchor",
   "alternative_paths": 0,
   "witness_path": [],
-  "proof_hash": "661d60c01318ce931c61eb1fa7f16798ef4b27e2d9e058dd0a2dbf833838f995"
+  "proof_hash": "292fe6e53ac10dc44045d785591028becffd69098baed56f2ac71104a235c25e"
 }

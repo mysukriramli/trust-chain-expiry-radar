@@ -1,15 +1,15 @@
 # Trust Chain Expiry Radar
-> Last Sync: 2026-11-04T12:04:16.138614+00:00 UTC
+> Last Sync: 2026-11-05T12:15:53.356638+00:00 UTC
 > Optimization: Directed trust-graph path enumeration across client trust store profiles (Mozilla, Android Legacy, Chromium).
 > Slashes 25,000 to 80,000 tokens of openssl chains and root stores to 300-token path failure proofs.
 
 ## Critical 30-Day Expiry & Path Failures
-- **api.github.com** [mozilla-current] -> `CURRENTLY_VALID` (Days left: **16**)
+- **api.github.com** [mozilla-current] -> `CURRENTLY_VALID` (Days left: **15**)
   - Cause: `leaf_expired` | Earliest Failure: `2026-11-20T23:59:59+00:00`
-  - Proof Hash: `bf4f0859a66ed70a`
-- **mesh.internal.node** [mozilla-current] -> `CURRENTLY_VALID` (Days left: **11**)
+  - Proof Hash: `07c513568a0d0c36`
+- **mesh.internal.node** [mozilla-current] -> `CURRENTLY_VALID` (Days left: **10**)
   - Cause: `leaf_expired` | Earliest Failure: `2026-11-15T23:59:59+00:00`
-  - Proof Hash: `98eeb31d26385957`
+  - Proof Hash: `9a1d3c31afa20c12`
 - **legacy-device.internal** [android-legacy] -> `PATH_FAILED` (Days left: **0**)
   - Cause: `root_expired` | Earliest Failure: `2021-09-30T14:01:15+00:00`
   - Proof Hash: `c014b35415941aad`
