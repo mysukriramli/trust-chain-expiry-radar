@@ -1,86 +1,86 @@
 {
-  "date": "2026-11-05",
-  "updated_at_utc": "2026-11-05T12:15:53.356638+00:00",
+  "date": "2026-11-06",
+  "updated_at_utc": "2026-11-06T12:02:32.961771+00:00",
   "transitions": [
     {
-      "commit_id": 80,
-      "timestamp_utc": "2026-11-05T12:15:53.356638+00:00",
+      "commit_id": 88,
+      "timestamp_utc": "2026-11-06T12:02:32.961771+00:00",
       "operation": "PATH_TRANSITION",
       "leaf_spki": "5f9a65f3f0e081395f1a9b23b497cb003a89094038480373e3a9856f7ef0cf43",
       "profile": "mozilla-current",
       "status": "CURRENTLY_VALID",
-      "days_until_failure": 15,
-      "proof_hash": "07c513568a0d0c360b9548a263d2a46e31847690eac698c58fa4ed9f9684aa5f"
+      "days_until_failure": 14,
+      "proof_hash": "d2d4cfa64673116e8cf27359923b31e441480444dfc5216cbfe7d0ddb3bef54c"
     },
     {
-      "commit_id": 81,
-      "timestamp_utc": "2026-11-05T12:15:53.356638+00:00",
+      "commit_id": 89,
+      "timestamp_utc": "2026-11-06T12:02:32.961771+00:00",
       "operation": "PATH_TRANSITION",
       "leaf_spki": "5f9a65f3f0e081395f1a9b23b497cb003a89094038480373e3a9856f7ef0cf43",
       "profile": "android-legacy",
       "status": "NO_TRUSTED_PATH",
       "days_until_failure": 0,
-      "proof_hash": "7b99a7f32ccf3d2d4da80e59beb48dce2b06be61caf9f7e0f3e6c17b7a48246a"
+      "proof_hash": "5f46c7e20a3c6f98b8414fde8cba586b40e9f458956a62ee4262770ef557e1fa"
     },
     {
-      "commit_id": 82,
-      "timestamp_utc": "2026-11-05T12:15:53.356638+00:00",
+      "commit_id": 90,
+      "timestamp_utc": "2026-11-06T12:02:32.961771+00:00",
       "operation": "PATH_TRANSITION",
       "leaf_spki": "5f9a65f3f0e081395f1a9b23b497cb003a89094038480373e3a9856f7ef0cf43",
       "profile": "chromium-current",
       "status": "NO_TRUSTED_PATH",
       "days_until_failure": 0,
-      "proof_hash": "98c5f6dada4366d0c776dba46d3d05ee9488a8c4260e309c7783655ea2757d8f"
+      "proof_hash": "38574dde4ecc7f19e49129be66ecf40ea745888ae6e7bfdb8e09464badda5510"
     },
     {
-      "commit_id": 83,
-      "timestamp_utc": "2026-11-05T12:15:53.356638+00:00",
+      "commit_id": 91,
+      "timestamp_utc": "2026-11-06T12:02:32.961771+00:00",
       "operation": "PATH_TRANSITION",
       "leaf_spki": "43e8bbcf28b939fa9857d422119eb429dc0a7a39d89264c483a31c62f3a6125a",
       "profile": "mozilla-current",
       "status": "CURRENTLY_VALID",
-      "days_until_failure": 10,
-      "proof_hash": "9a1d3c31afa20c12062f06b4e8aa3c336947264a60b35565253de2497011f50d"
+      "days_until_failure": 9,
+      "proof_hash": "fe88bda98d32237d742bb57162d089c92cc5f3e27eba45ed70ac2ece1ce11459"
     },
     {
-      "commit_id": 84,
-      "timestamp_utc": "2026-11-05T12:15:53.356638+00:00",
+      "commit_id": 92,
+      "timestamp_utc": "2026-11-06T12:02:32.961771+00:00",
       "operation": "PATH_TRANSITION",
       "leaf_spki": "43e8bbcf28b939fa9857d422119eb429dc0a7a39d89264c483a31c62f3a6125a",
       "profile": "android-legacy",
       "status": "NO_TRUSTED_PATH",
       "days_until_failure": 0,
-      "proof_hash": "e80e6e0c6960a4c9a7c42fc9801f3e6a948aae16bc50eb0a233371a04a42b2c3"
+      "proof_hash": "aba5778f0d22472eabad78c5c49304f8ed6497d1dba1392e1f410a2949181d8f"
     },
     {
-      "commit_id": 85,
-      "timestamp_utc": "2026-11-05T12:15:53.356638+00:00",
+      "commit_id": 93,
+      "timestamp_utc": "2026-11-06T12:02:32.961771+00:00",
       "operation": "PATH_TRANSITION",
       "leaf_spki": "43e8bbcf28b939fa9857d422119eb429dc0a7a39d89264c483a31c62f3a6125a",
       "profile": "chromium-current",
       "status": "NO_TRUSTED_PATH",
       "days_until_failure": 0,
-      "proof_hash": "9f46d1aa696fead7336f74d00d6d2895ff34b38106d0d3b4c4556a425c469629"
+      "proof_hash": "7f8b0009093912ca289f16ae880838a54c2e2aca86d28f241b7d8d4b16b679e5"
     },
     {
-      "commit_id": 86,
-      "timestamp_utc": "2026-11-05T12:15:53.356638+00:00",
+      "commit_id": 94,
+      "timestamp_utc": "2026-11-06T12:02:32.961771+00:00",
       "operation": "PATH_TRANSITION",
       "leaf_spki": "129038fbcd5839217830aaefbbccddeeff99332211445566778899aabbccdde0",
       "profile": "mozilla-current",
       "status": "NO_TRUSTED_PATH",
       "days_until_failure": 0,
-      "proof_hash": "0136e10f9b39f1ed4bbba5f180200d580d1221b9792d5b38ce99cee9f543eda6"
+      "proof_hash": "14f4093f14a12c3587f663416b62aaf941caeb1aedf0b3affe0f4b671f7e51f2"
     },
     {
-      "commit_id": 87,
-      "timestamp_utc": "2026-11-05T12:15:53.356638+00:00",
+      "commit_id": 95,
+      "timestamp_utc": "2026-11-06T12:02:32.961771+00:00",
       "operation": "PATH_TRANSITION",
       "leaf_spki": "129038fbcd5839217830aaefbbccddeeff99332211445566778899aabbccdde0",
       "profile": "chromium-current",
       "status": "NO_TRUSTED_PATH",
       "days_until_failure": 0,
-      "proof_hash": "292fe6e53ac10dc44045d785591028becffd69098baed56f2ac71104a235c25e"
+      "proof_hash": "51d5accd5c186c9608d8f642e0c0343f4d2215dbeb3766912fc4a2120c45ca7c"
     }
   ]
 }
