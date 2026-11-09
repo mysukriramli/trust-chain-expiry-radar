@@ -3,10 +3,10 @@
   "subject_cn": "api.github.com",
   "profile": "chromium-current",
   "status": "NO_TRUSTED_PATH",
-  "earliest_failure": "2026-11-08T11:14:41.855961+00:00",
+  "earliest_failure": "2026-11-09T12:47:37.701968+00:00",
   "days_until_failure": 0,
   "cause": "missing_trust_anchor",
   "alternative_paths": 0,
   "witness_path": [],
-  "proof_hash": "d495b487e4c587d84686ad0f6d15b953191602c8ac740532dbc148751266bf7d"
+  "proof_hash": "d9ff8fc5d716c0d8528e89745d3a8eeb76f9570b75ddac75fd750689e99f53e6"
 }
