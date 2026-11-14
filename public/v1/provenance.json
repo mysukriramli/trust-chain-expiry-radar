@@ -2,5 +2,5 @@
   "generator": "trust-chain-expiry-radar",
   "runtime": "python-3.11",
   "cryptography_version": "43.0.1",
-  "generated_at_utc": "2026-11-13T12:08:32.408464+00:00"
+  "generated_at_utc": "2026-11-14T11:26:16.726417+00:00"
 }
