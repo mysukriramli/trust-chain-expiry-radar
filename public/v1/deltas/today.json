@@ -1,76 +1,76 @@
 {
-  "date": "2026-11-17",
-  "updated_at_utc": "2026-11-17T13:16:57.224044+00:00",
+  "date": "2026-11-18",
+  "updated_at_utc": "2026-11-18T12:59:05.568166+00:00",
   "transitions": [
     {
-      "commit_id": 176,
-      "timestamp_utc": "2026-11-17T13:16:57.224044+00:00",
+      "commit_id": 183,
+      "timestamp_utc": "2026-11-18T12:59:05.568166+00:00",
       "operation": "PATH_TRANSITION",
       "leaf_spki": "5f9a65f3f0e081395f1a9b23b497cb003a89094038480373e3a9856f7ef0cf43",
       "profile": "mozilla-current",
       "status": "CURRENTLY_VALID",
-      "days_until_failure": 3,
-      "proof_hash": "eea099cb71174a0c59fa61f08fbf01fe49f72aa9786752dea34f7f772918a648"
+      "days_until_failure": 2,
+      "proof_hash": "5815a940861a3b36f15ef2a1a25d0f0624bf248f16dbeeac42e8e3bbd040cabc"
     },
     {
-      "commit_id": 177,
-      "timestamp_utc": "2026-11-17T13:16:57.224044+00:00",
+      "commit_id": 184,
+      "timestamp_utc": "2026-11-18T12:59:05.568166+00:00",
       "operation": "PATH_TRANSITION",
       "leaf_spki": "5f9a65f3f0e081395f1a9b23b497cb003a89094038480373e3a9856f7ef0cf43",
       "profile": "android-legacy",
       "status": "NO_TRUSTED_PATH",
       "days_until_failure": 0,
-      "proof_hash": "9c25f533c6ff6da52e1487e1917ce7c1634703b87fae5c64a80c433a4db27c61"
+      "proof_hash": "cd8e31d0e793b413dad7c67025936b8671f4c513f1c76eb6b91fb1de59b0542f"
     },
     {
-      "commit_id": 178,
-      "timestamp_utc": "2026-11-17T13:16:57.224044+00:00",
+      "commit_id": 185,
+      "timestamp_utc": "2026-11-18T12:59:05.568166+00:00",
       "operation": "PATH_TRANSITION",
       "leaf_spki": "5f9a65f3f0e081395f1a9b23b497cb003a89094038480373e3a9856f7ef0cf43",
       "profile": "chromium-current",
       "status": "NO_TRUSTED_PATH",
       "days_until_failure": 0,
-      "proof_hash": "1e06b0138faa095f520ff81663c37a7096f9a8250e480ecbba0ea42011e8c554"
+      "proof_hash": "9f47ffb87be594665168590c564bb14c9dfc66164984e5f769234a0af6521456"
     },
     {
-      "commit_id": 179,
-      "timestamp_utc": "2026-11-17T13:16:57.224044+00:00",
+      "commit_id": 186,
+      "timestamp_utc": "2026-11-18T12:59:05.568166+00:00",
       "operation": "PATH_TRANSITION",
       "leaf_spki": "43e8bbcf28b939fa9857d422119eb429dc0a7a39d89264c483a31c62f3a6125a",
       "profile": "android-legacy",
       "status": "NO_TRUSTED_PATH",
       "days_until_failure": 0,
-      "proof_hash": "d5b7646381c204bb0c052dea4743629b81e55c767cdec286f7e6c1d263c380b8"
+      "proof_hash": "cb76351482e8193bb93861d6214248df9f0afb8bb2cbf8a8e5bd9d622a3e8a8a"
     },
     {
-      "commit_id": 180,
-      "timestamp_utc": "2026-11-17T13:16:57.224044+00:00",
+      "commit_id": 187,
+      "timestamp_utc": "2026-11-18T12:59:05.568166+00:00",
       "operation": "PATH_TRANSITION",
       "leaf_spki": "43e8bbcf28b939fa9857d422119eb429dc0a7a39d89264c483a31c62f3a6125a",
       "profile": "chromium-current",
       "status": "NO_TRUSTED_PATH",
       "days_until_failure": 0,
-      "proof_hash": "755607a8e6bf3a00704148dcc92011b790e57e791b25b9c366e866f1b91e81c7"
+      "proof_hash": "1799ca5994c6113e095ba85280d8d1c76cfe12b18291195efa63eae9409f1c5d"
     },
     {
-      "commit_id": 181,
-      "timestamp_utc": "2026-11-17T13:16:57.224044+00:00",
+      "commit_id": 188,
+      "timestamp_utc": "2026-11-18T12:59:05.568166+00:00",
       "operation": "PATH_TRANSITION",
       "leaf_spki": "129038fbcd5839217830aaefbbccddeeff99332211445566778899aabbccdde0",
       "profile": "mozilla-current",
       "status": "NO_TRUSTED_PATH",
       "days_until_failure": 0,
-      "proof_hash": "e9d45069e5e6c16134fe43974310c817a6b018efbc2bdbc5d26827ecbfdb2fd9"
+      "proof_hash": "67c602e6f06728953f410bdcaeb3c13b2797426f5676c3760b0de7db5ce22991"
     },
     {
-      "commit_id": 182,
-      "timestamp_utc": "2026-11-17T13:16:57.224044+00:00",
+      "commit_id": 189,
+      "timestamp_utc": "2026-11-18T12:59:05.568166+00:00",
       "operation": "PATH_TRANSITION",
       "leaf_spki": "129038fbcd5839217830aaefbbccddeeff99332211445566778899aabbccdde0",
       "profile": "chromium-current",
       "status": "NO_TRUSTED_PATH",
       "days_until_failure": 0,
-      "proof_hash": "62d13d919c1cdb8923fed68a653d4e851f00b3ce4c422e367d1f0314f669c6b3"
+      "proof_hash": "153ccf644758f5891b05056f46fdb900641c23f87cc4bae3a25adfcae9cd3896"
     }
   ]
 }
