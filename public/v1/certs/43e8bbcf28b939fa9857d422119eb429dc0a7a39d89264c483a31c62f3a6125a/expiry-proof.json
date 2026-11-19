@@ -3,10 +3,10 @@
   "subject_cn": "mesh.internal.node",
   "profile": "chromium-current",
   "status": "NO_TRUSTED_PATH",
-  "earliest_failure": "2026-11-18T12:59:05.568166+00:00",
+  "earliest_failure": "2026-11-19T12:57:28.727366+00:00",
   "days_until_failure": 0,
   "cause": "missing_trust_anchor",
   "alternative_paths": 0,
   "witness_path": [],
-  "proof_hash": "1799ca5994c6113e095ba85280d8d1c76cfe12b18291195efa63eae9409f1c5d"
+  "proof_hash": "6cacf9f20ef3a02657f02788ba8f128717fad91097c611ed730c242f8289b089"
 }
