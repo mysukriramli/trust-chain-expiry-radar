@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-19T12:57:28.727366+00:00",
+  "generated_at_utc": "2026-11-20T12:50:13.182972+00:00",
   "horizon_days": 30,
   "at_risk_count": 3,
   "evaluations": [
@@ -9,14 +9,14 @@
       "profile": "mozilla-current",
       "status": "CURRENTLY_VALID",
       "earliest_failure": "2026-11-20T23:59:59+00:00",
-      "days_until_failure": 1,
+      "days_until_failure": 0,
       "cause": "leaf_expired",
       "alternative_paths": 0,
       "witness_path": [
         "5f9a65f3f0e081395f1a9b23b497cb003a89094038480373e3a9856f7ef0cf43",
         "cb3cc0165fae03e5cb078ee82458daae3d97005b67e4032b65acac52b14e6f52"
       ],
-      "proof_hash": "4e921aada51435810928f615fb8eda4010a5de49441ff099c3e2248b06679b81"
+      "proof_hash": "2bf2cb0c64b51f0f6eb1379bc4c2f1853187a8ad28fbfddd44a837fc838c2564"
     },
     {
       "leaf_spki": "43e8bbcf28b939fa9857d422119eb429dc0a7a39d89264c483a31c62f3a6125a",
