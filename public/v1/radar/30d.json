@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-20T12:50:13.182972+00:00",
+  "generated_at_utc": "2026-11-21T12:35:33.886221+00:00",
   "horizon_days": 30,
   "at_risk_count": 3,
   "evaluations": [
@@ -7,7 +7,7 @@
       "leaf_spki": "5f9a65f3f0e081395f1a9b23b497cb003a89094038480373e3a9856f7ef0cf43",
       "subject_cn": "api.github.com",
       "profile": "mozilla-current",
-      "status": "CURRENTLY_VALID",
+      "status": "PATH_FAILED",
       "earliest_failure": "2026-11-20T23:59:59+00:00",
       "days_until_failure": 0,
       "cause": "leaf_expired",
@@ -16,7 +16,7 @@
         "5f9a65f3f0e081395f1a9b23b497cb003a89094038480373e3a9856f7ef0cf43",
         "cb3cc0165fae03e5cb078ee82458daae3d97005b67e4032b65acac52b14e6f52"
       ],
-      "proof_hash": "2bf2cb0c64b51f0f6eb1379bc4c2f1853187a8ad28fbfddd44a837fc838c2564"
+      "proof_hash": "f007b3bbbf12b9adc67b33df0e9ed4313082f171cf3244984fad4d006cfe5c4b"
     },
     {
       "leaf_spki": "43e8bbcf28b939fa9857d422119eb429dc0a7a39d89264c483a31c62f3a6125a",
